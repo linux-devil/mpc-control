@@ -9,6 +9,8 @@ Two actuators were also used to solve the MPC
 * delta -> the steering angle
 * a -> the acceleration value (can be negative or positive)
 
+## Video link - https://youtu.be/Y49KsWKjB1U
+
 # mpc-control
 Implementation of Model Predictive Control using Udacity Self Driving Car simulator
 
