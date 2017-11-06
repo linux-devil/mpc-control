@@ -1,3 +1,14 @@
+# MPC - Model Predictive Control
+
+For this project we have implemented a global kinematic model which represents the vehicle state model by position, orientation and velocity.
+The main goal was to use the mentioned MPC (Model Predictive Controller) to safely drive a car along the track. The key point in this project was to choose the appropriate parameter values that optimize the MPC cost function.
+In addition to the variables mentioned before, others parameters were taken into account to define the MPC pipeline.
+* The CTE (cross track error) represents the distance of the vehicle from the trajectory.
+* EPSI (orientation error) which describes the difference between the vehicle orientation and the trajectory orientation.
+Two actuators were also used to solve the MPC
+* delta -> the steering angle
+* a -> the acceleration value (can be negative or positive)
+
 # mpc-control
 Implementation of Model Predictive Control using Udacity Self Driving Car simulator
 
