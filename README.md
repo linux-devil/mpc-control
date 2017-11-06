@@ -38,7 +38,7 @@ epsi —  orientation error.
 
 The vehicle model is implemented in the FG_eval class.
 
-Model Predictive Control with Latency
+##Model Predictive Control with Latency
 
 To accomplish the 100ms delay requirement, it was set a value of 20 for N and 0.2s for dt in order to have a better and greater predictive estimation. Also set a max speed value of 65mph to avoid very high speed situations.
 
