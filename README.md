@@ -53,7 +53,14 @@ The vehicle model is implemented in the FG_eval class.
 
 ##Model Predictive Control with Latency
 
-To accomplish the 100ms delay requirement, it was set a value of 20 for N and 0.2s for dt in order to have a better and greater predictive estimation. Also set a max speed value of 65mph to avoid very high speed situations.
+There can be different approach to solve this issue 
+  
+  1. Assuming 100ms latency between sensors and processing as an additional constraint in the optimization problem, one can only update actuator constraint as previous timestamp.
+  2. I implemented prediction for the vehicle after 100ms (0.1 seconds) . “dt” value was set for same and prediction was done. This implementation is included in line 126-131
+
+## Tiemstep length and elapsed duration
+
+It was set a value of 20 for N and 0.2s for dt in order to have a better and greater predictive estimation. Also set a max speed value of 65mph to avoid very high speed situations.
 
 # Dependencies
 
