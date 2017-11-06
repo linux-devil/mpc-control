@@ -46,24 +46,24 @@ To accomplish the 100ms delay requirement, it was set a value of 20 for N and 0.
 
 Dependencies
 
-cmake >= 3.5
-All OSes: click here for installation instructions
-make >= 4.1
-Linux: make is installed by default on most Linux distros
-Mac: install Xcode command line tools to get make
-Windows: Click here for installation instructions
-gcc/g++ >= 5.4
-Linux: gcc / g++ is installed by default on most Linux distros
-Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
-Windows: recommend using MinGW
-uWebSockets == 0.14, but the master branch will probably work just fine
-Follow the instructions in the uWebSockets README to get setup for your platform. You can download the zip of the appropriate version from the releases page. Here's a link to the v0.14 zip.
-If you have MacOS and have Homebrew installed you can just run the ./install-mac.sh script to install this.
-Ipopt
-Mac: brew install ipopt --with-openblas
-CppAD
-Mac: brew install cppad
-Linux sudo apt-get install cppad or equivalent.
+- cmake >= 3.5
+  All OSes: click here for installation instructions
+- make >= 4.1
+  Linux: make is installed by default on most Linux distros
+  Mac: install Xcode command line tools to get make
+  Windows: Click here for installation instructions
+- gcc/g++ >= 5.4
+  Linux: gcc / g++ is installed by default on most Linux distros
+  Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
+  Windows: recommend using MinGW
+- uWebSockets == 0.14, but the master branch will probably work just fine
+  Follow the instructions in the uWebSockets README to get setup for your platform. You can download the zip of the   appropriate version from the releases page. Here's a link to the v0.14 zip.
+  If you have MacOS and have Homebrew installed you can just run the ./install-mac.sh script to install this.
+- Ipopt
+  Mac: brew install ipopt --with-openblas
+- CppAD
+  Mac: brew install cppad
+  Linux sudo apt-get install cppad or equivalent.
 
 # Basic building Instructions
 - Clone this repo.
